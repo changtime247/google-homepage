@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head> 
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <style>
+            body {
+                height: 100%;
+                font-family: arial,sans-serif;
+            }
+
+            .masterdiv {
+                display: flex;
+                flex-direction: column;
+                height: 100%;
+            }
+
+            a.MV3Tnb:first-of-type {
+                margin-left: 15px;
+            }
+
+            a.MV3Tnb {
+                display: inline-block;
+                padding: 5px;
+                margin: 0 5px;
+                margin-left: 5px;
+                color: #222;
+                text-decoration: none;
+            }
+
+            #Google logo {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .gsearch {
+                align-self: center;
+            }
+
+            body {
+               text-align: center;
+            }
+            
+            .googleimg {
+                max-height: 100%;
+                max-width: 100%;
+                object-fit: contain;
+                object-position: center bottom;
+                width: auto;
+            }
+            
+            form {
+               display: flex;
+               border-radius: 30px;
+            }
+
+            .magnifyingglass {
+                display: inline-block;
+            }
+
+            .undersearchbar {
+                background-color: #f8f9fa;
+                border: 1px solid #f8f9fa;
+                border-radius: 4px;
+                color: #3c4043;
+                font-family: arial,sans-serif;
+                font-size: 14px;
+                margin: 11px 4px;
+                padding: 0 16px;
+                line-height: 27px;
+                height: 36px;
+                min-width: 54px;
+                text-align: center;
+                cursor: pointer;
+                user-select: none;
+            }
+
+            .searchbar {
+                border: 1px solid #dfe1e5;
+                margin: 0 auto;
+            }
+
+            #inputform {
+                border: none; 
+                padding: 10px;
+                margin: 2px;
+                height: 30px;
+                border: 1px transparent;
+                outline: none;
+                width: auto;
+                max-width: 584px;
+            }
+
+            .searchbar:hover {
+                border-color: #6d1313 #b9b9b9;
+            }
+
+            .buttonusb {
+                border: none;
+                padding: 10px;
+                font-family: arial,sans-serif;
+            }
+        </style>
+        <title>Google</title>
+    </head>
+
+    <body>
+    <div id="masterdiv">
+        <div id="headerdiv">
+                <div id="leftheaderdiv"
+                    <a class="MV3Tnb" href="https://about.google/?fg=1&amp;utm_source=google-US&amp;utm_medium=referral&amp;utm_campaign=hp-header" onmousedown="return rwt(this,'','','','','AOvVaw13L0SpN0L7ycx9R0_i4R2S','','0ahUKEwjq25uNhpryAhUzKVkFHSmBAZIQkNQCCAI','','',event)">About</a>
+                    <a class="MV3Tnb" href="/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=webhp&amp;cd=&amp;cad=rja&amp;uact=8&amp;ved=0ahUKEwiFrdOs4aHyAhU6GFkFHWGtAfkQpMwCCAM&amp;url=https%3A%2F%2Fstore.google.com%2FUS%3Futm_source%3Dhp_header%26utm_medium%3Dgoogle_ooo%26utm_campaign%3DGS100042%26hl%3Den-US&amp;usg=AOvVaw0wvkRBURf91YdMQCXOelDf" onmousedown="return rwt(this,'','','','','AOvVaw0wvkRBURf91YdMQCXOelDf','','0ahUKEwiFrdOs4aHyAhU6GFkFHWGtAfkQpMwCCAM','','',event)" data-ctbtn="2" data-cthref="/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=webhp&amp;cd=&amp;cad=rja&amp;uact=8&amp;ved=0ahUKEwiFrdOs4aHyAhU6GFkFHWGtAfkQpMwCCAM&amp;url=https%3A%2F%2Fstore.google.com%2FUS%3Futm_source%3Dhp_header%26utm_medium%3Dgoogle_ooo%26utm_campaign%3DGS100042%26hl%3Den-US&amp;usg=AOvVaw0wvkRBURf91YdMQCXOelDf">Store</a>
+        </div>
+        <div id="Google logo">
+            <img class="googleimg" src="googlelogo_color_272x92dp.png" alt="Google logo" position="center"></br></br>
+            <div>
+                <form action="" method="" button="" class="gsearch" autocomplete="on">
+                    <div class="searchbar">
+                        <input id="inputform" type="search" name="" size="50">
+                        <span class="magnifyingglass">
+                            <img src="search_black_24dp.svg" viewBox="0 0 24 24">
+                            </img>
+                        </span>
+                    </div>
+                </form>
+            </div>
+            <div class="gcse-searchresults-only">
+            </div>
+        </div>
+
+<br>
+        <div class="undersearchbar">
+            <input class="buttonusb" type="button" value="Google Search" type="submit">
+            <input class="buttonusb" value="I'm feeling lucky" aria-label="Google Search" name="btnK" type="submit" data-ved="0ahUKEwiZn4Pt0JfyAhUmQTABHUxhDN4Q4dUDCA0">
+        </div>
+        <div id="footer">
+
+        </div>
+    </div>
+    </body>
+</html>
